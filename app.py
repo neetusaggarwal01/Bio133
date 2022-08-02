@@ -1,18 +1,27 @@
-# Let's make a standard curve plotting with matplotlib
-import matplotlib.pyplot as plt
+print('My name is Neetu')
+print('I read biotech')
 
-x = [3.5710, 2.3470, 1.7710, 1.4875, 1.2930,
-     1.1645, 1.1125, 1.0855]  # x axis values
-# corresponding y axis values
-y = [1000, 500, 250, 125, 62.5, 31.25, 15.625, 0]
+# print numberic variables
+x = 10
+y = 15
+z = x+y
+# add 2 numbers
+# print(z)
 
-plt.plot(x, y)  # plotting the points in line format
+# print string variables
 
-plt.xlabel('Absorbance')  # naming the x axis
+str = 'The sum of 2 number is'
+print(str)
+print(z)
 
-plt.ylabel('Protein Concentration')  # naming the y axis
+dna = input('enter a DNA sequence')
+if 'n' in dna:
+    nbases = dna.count('n')
+    print('dna sequence has', nbases, 'n')
 
-# give a title to your graph (note: it automatically puts the title on top)
-plt.title('BSA Standard Curve')
+number1 = input('enter a number   ')
+number2 = input('enter second number   ')
 
-plt.show()  # function to show the plot
+print('your sum of numbers are: ')
+calculate = int(number1) + int(number2)
+print(calculate)
